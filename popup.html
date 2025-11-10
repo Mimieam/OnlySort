@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Only Sort</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'hehe';
+        src: url('data:application/octet-stream;base64,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') format('woff'),
+    }
+    .hehe{ font-family: hehe;}
+    .hehe:before { content: '\e80b'; }
+    body {
+        font-family: 'Nunito';
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 420px;
+        font-size: large;
+        font-weight: lighter;
+    }
+    button {
+        font-size: x-large;
+        font-weight: lighter;
+        height: 44px;
+        width: 400px;
+    } 
+    h3,
+    ol {
+        padding: 0;
+        margin: 0;
+    }
+    #toast {
+        position: fixed;
+        /* bottom: 20px; */
+        top: 0;
+        right: 0;
+        /* background: #333; */
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 4px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-family: sans-serif;
+        font-size: 14px;
+        pointer-events: none;
+    }
+    #toast.show {
+        opacity: 1;
+    }
+</style>
+<body>
+    <div id="toast"></div>
+    <span style="text-align: center;"><h3> OnlySort  </h3> Nothing but bare sorting... <i class="hehe"> </i></span>
+    <button id="sort-all-tabs">Sort All Tabs <span></span></button>
+    <button id="sort-tabs-in-this-window">Sort Tabs in This window <span></span></button>
+    <br/>
+    <div style="align-self: flex-start; font-size: small;">
+        <div>Sorting Sequence: 🌐 (domain) → 🏷️ (subdomain) → 📄 (title)</div>
+    </div>
+    <a style="align-self: flex-start; font-size: small;">
+        <strong style="font-weight: bold;">Privacy:</strong> No data collected. Ain't got time for that nonsense.</a>
+    <script type="module" src="./popup.mjs"></script>
+</body>
+</html>
