@@ -1,7 +1,7 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
   "name": "Only Sort - a simple tab sorter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Nothing but bare tab sorting",
   "manifest_version": 3,
   "icons": {
