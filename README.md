@@ -27,12 +27,9 @@ The easiest way to install OnlySort is directly from the official store:
 If you are installing from a local copy or developing:
 
 1.  Clone this repository:
-    ```bash
-    git clone [REPO_URL]
-    ```
 2.  Open your browser's extensions page (e.g., `chrome://extensions`).
 3.  Enable **Developer mode** using the toggle in the top-right corner.
-4.  Click **"Load unpacked"** and select the extension directory (e.g., `ext-onlySort`).
+4.  Click **"Load unpacked"** and select the `src` extension directory inside this repo.
 
 ### 📦 Development & Packaging
 
